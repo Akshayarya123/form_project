@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title Form two>Document</title>
+</head>
+<body>
+    <h2>
+        Job Application
+        </h2>
+
+
+    <form >
+
+        <label for="name">Name:</label>
+<input type="text" id="Name" name="Name">
+</BR>
+</BR>
+<label for="email id">Email:</label>
+<input type="emil" id="Email ID" name="Email ID">
+
+
+<BR>
+</BR>
+
+<label for="phone number">Phone No:</label>
+<input type="tel" id="Phone number" name="Phone number">
+  <br>
+  <br>
+
+
+  <label for="fileupload">Resume</label>
+  <input type="file" name="fileupload" id="fileupload">
+<br>
+<br>
+
+<label for="counter">Experience(in years)</label>
+  <input type="number" name="Counter" id="counter" min="0" max="50">
+ 
+  <br>
+  <br>
+
+  <fieldset>
+
+    <legend>Skills</legend>
+
+    
+    <input type="checkbox" name="checkbox" id="checkbox1">
+    <label for="checkbox1">HTML</label>
+
+
+    
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label for="checkbox2">CSS</label>
+
+    
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label for="checkbox3">JavaScript </label>
+
+</fieldset>
+ <br>
+
+ <label for="educationType">Qualification</label>
+ <select name="education type" id="educationType">
+   <option value="Diploma">Diploma</option>
+   <option value="Btech">BTECH</option>
+   <option value="BCA">BCA</option>
+   <option value="MCA">MCA</option>
+ </select>
+
+ <br>
+ <br>
+
+
+ <fieldset>
+
+    <br>
+
+    
+    <legend>Availablity</legend>
+     
+    <label for="radio1">Full Time</label>
+   <input type="radio" name="radio" id="radio1">
+   
+   <label for="radio2">Part Time</label>
+   <input type="radio" name="radio" id=" radio2">
+     
+ </fieldset>
+   <br>
+   <br>
+
+   <label for="textarea1"> Additional Comments:</label>
+<textarea name="textaera1" id="textarea1" cols="20" rows="8"></textarea>
+
+
+<input type="submit" value="Submit Application">
+
+
+
+
+    </form>
+</body>
+</html>
